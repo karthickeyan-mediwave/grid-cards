@@ -1,0 +1,92 @@
+/* styles for elements */
+
+.main-container {
+  background-color: pink;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  height: 426px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 30px;
+  border-radius: 15px;
+  width: 350px;
+}
+.save-img {
+  height: 15px;
+  width: 10px;
+  border: 1px solid black;
+}
+.first-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 30px;
+  width: 199px;
+  padding: 7px;
+  height: 90px;
+}
+.arrow {
+  float: right;
+  width: 28px;
+  height: 1px;
+  background: black;
+  display: block;
+}
+span {
+  height: 10px;
+  width: 10px;
+  background: rgb(157 148 187);
+  border-radius: 50px;
+  display: inline-block;
+  margin: 60px auto 0 auto;
+}
+#first-dot {
+  background-color: rgb(2, 2, 2);
+}
+.card-first-section {
+  background-color: #a5deeb;
+  padding: 19px;
+  border-radius: 5px;
+  height: 300px;
+}
+.second-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 16px;
+  font-size: 15px;
+}
+.img-logo1 {
+  height: 20px;
+  width: 20px;
+  background: blueviolet;
+}
+.inside-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}
+.img-logo2 {
+  height: 26px;
+  width: 35px;
+  background: #2be278;
+  border-radius: 45px;
+}
+.img-logo3 {
+  background-image: linear-gradient(#00e6ff, red);
+  height: 26px;
+  width: 35px;
+}
